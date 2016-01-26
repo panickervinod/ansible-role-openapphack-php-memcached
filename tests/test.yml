@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  remote_user: root
+
+  roles:
+    - openapphack.memcached
+    - openapphack.php
+    - ansible-role-php-memcached
